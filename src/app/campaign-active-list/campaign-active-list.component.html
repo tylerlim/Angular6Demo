@@ -1,0 +1,13 @@
+<p>
+  campaign-active-list works!
+</p>
+<ul class="">
+    <!-- <li *ngFor="let campaign of campaigns$ | async" > -->
+  <li *ngFor="let campaign of campaigns" >
+      {{campaign.id}}
+      {{campaign.postId}}
+      {{campaign.name}}
+      {{campaign.email}}
+      {{campaign.body}}
+  </li>
+</ul>
