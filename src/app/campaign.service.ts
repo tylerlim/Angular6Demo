@@ -7,8 +7,6 @@ import { catchError, map, tap } from 'rxjs/operators';
 const httpOptions = {
   headers: new HttpHeaders({
     'Content-Type': 'application/json'
-    // 'dkey': 'l8g31xAwPQpLbKTtk9LV9CzIQyaIRsHz',
-    // 'token': 'KU39g42VGDOQiooliWVM7+yjJDki+zC1CEJ6AhiGgCc='
   })
 };
 
